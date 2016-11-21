@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> My Portfolio - Contact </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+	<div class="navbar-static-top navbar-inverse">
+		<div class="container">
+			<div class="navbar-brand">
+				<a href="index.html"> My Site </a>
+			</div>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				Menu
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Page2.html">More Info...</a></li>
+					<li><a href="Page3.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+		<div class="jumbotron"> 
+		
+			<div id="Layout2"> 
+				<h1 id="About" > Contact Me Using The Fields Below... </h1> 
+					<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+						<div class="row">
+						<label for="name">Your name:</label><br />
+						<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+						</div>
+						<div class="row">
+						<label for="email">Your email:</label><br />
+						<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+						</div>
+						<div class="row">
+						<label for="message">Your message:</label><br />
+						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+						</div>
+						<br/>
+						<input id="submit_button" type="submit" value="Submit" />
+					</form>	
+				<br/>
+				<a href="index.html" id="style" > Home </a>
+				<br/>
+				<a href="Page2.html" id="style" > More Info... </a>
+
+			</div>
+		</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script> 
+	</body> 
+</html>

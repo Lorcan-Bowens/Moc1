@@ -1,0 +1,136 @@
+.jumbotron
+{
+	background-image:url("Images/small_steps.png");
+	background-attachment:fixed;
+	margin-bottom:0px;
+}
+
+img
+{
+	display:block;
+	margin:0 auto;
+	
+}
+
+p
+{
+	font-size:20px;
+	text-align:center;
+	word-wrap:keep-all;
+	border-style:solid;
+	border-radius:10px;
+	background-color:white;
+	border-color:#39CEDD;
+}
+
+h2
+{
+	text-align:center;
+}
+
+a
+{
+	color:#39CEDD;
+}
+
+a:hover
+{
+	color:darkred;
+}
+
+#About
+{
+	font-family:helvetica;
+	color:#39CEDD;
+}
+
+#Layout2
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:680px;
+	text-align:center;
+}
+
+#style 
+{
+	font-size:30px;
+}
+
+#headings
+{
+	font-family:helvetica;
+	color:#39CEDD;
+}
+
+#Gallery
+{
+	margin:20px;
+    border:8px solid #ccc;
+    float:left;
+    width:590px;
+}
+
+#email
+{
+	font-size:20px;
+	text-align:center;
+	word-wrap:keep-all;
+	border-style:solid;
+	border-radius:10px;
+	background-color:#ccc;
+	border-color:#39CEDD;
+}
+
+#name
+{
+	font-size:20px;
+	text-align:center;
+	word-wrap:keep-all;
+	border-style:solid;
+	border-radius:10px;
+	background-color:#ccc;
+	border-color:#39CEDD;
+}
+
+#message 
+{
+	font-size:20px;
+	text-align:center;
+	word-wrap:keep-all;
+	border-style:solid;
+	border-radius:10px;
+	background-color:#ccc;
+	border-color:#39CEDD;
+}
+
+#contact_form 
+{
+	font-size:22px;
+	font-family:helvetica; 	
+}
+
+#submit_button
+{
+	font-size:20px;
+	font-family:helvetica;
+	text-align:center;
+	word-wrap:keep-all;
+	border-style:solid;
+	border-radius:10px;
+	background-color:#ccc;
+	border-color:#39CEDD;
+}
+
+#flat
+{
+	font-size:30px;
+	font-family:helvetica;
+	text-align:center;
+	word-wrap:keep-all;
+	border-style:solid;
+	border-radius:10px;
+	background-color:#ccc;
+	border-color:#39CEDD;
+}
+
